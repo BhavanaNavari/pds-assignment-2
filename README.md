@@ -7,13 +7,17 @@ Make and model of the car, Location or city of sale, Year of manufacture, Mileag
 (kilometers driven), Fuel type (petrol or diesel), Transmission type (manual or automatic), Number of
 owners, Engine displacement, Engine horsepower, Number of seats, and Price when the car was new.
 Use this data to perform the following:
+
 a) Look for the missing values in all the columns and either impute them (replace with mean,
 median, or mode) or drop them. Justify your action for this task. 
+
 b) Remove the units from some of the attributes and only keep the numerical values (for
 example remove kmpl from “Mileage”, CC from “Engine”, bhp from “Power”, and lakh from
 “New_price”). 
+
 C) Change the categorical variables (“Fuel_Type” and “Transmission”) into numerical one hot
 encoded value.
+
 d) Create one more feature and add this column to the dataset (you can use mutate function in
 R for this). For example, you can calculate the current age of the car by subtracting “Year” value
 from the current year.
