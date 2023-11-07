@@ -15,7 +15,7 @@ b) Remove the units from some of the attributes and only keep the numerical valu
 example remove kmpl from “Mileage”, CC from “Engine”, bhp from “Power”, and lakh from
 “New_price”). 
 
-C) Change the categorical variables (“Fuel_Type” and “Transmission”) into numerical one hot
+c) Change the categorical variables (“Fuel_Type” and “Transmission”) into numerical one hot
 encoded value.
 
 d) Create one more feature and add this column to the dataset (you can use mutate function in
